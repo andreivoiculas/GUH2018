@@ -1,0 +1,21 @@
+﻿[IBeam]
+Path=( ͡° ͜ʖ ͡°)Text_Select.cur
+
+[Arrow]
+Path=( ͡° ͜ʖ ͡°)Normal _Select.cur
+
+[Hand]
+Path=( ͡° ͜ʖ ͡°)Link_Select.ani
+
+[AppStarting]
+Path=( ͡° ͜ʖ ͡°)Working_in_Background.ani
+
+[Wait]
+Path=( ͡° ͜ʖ ͡°)Busy.ani
+
+[No]
+Path=( ͡° ͜ʖ ͡°)Unavaliable.cur
+
+[Help]
+Path=( ͡° ͜ʖ ͡°)Help_Select.cur
+
