@@ -24,6 +24,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   /*grid-gap: 10px;*/
   grid-auto-rows: minmax(100px, auto);
+  font-weight: bolder;
 }
 
 
@@ -33,34 +34,39 @@ body {
 }
 .banner .new-videos{
   grid-column: 2;
-  background-color: gray;
+  background-image:url('./hazard.png');
   text-align: center;
+  color: red;
   font-size: 30px; 
 }
 .banner .top100{
   grid-column: 3;
-  background-color: blue;
+  background-image:url('./hazard.png');
   text-align: center;
   font-size: 30px;
+  color: red;
 }
 .banner li{
   margin-left: 40px; 
 }
+.banner li a{
+  color: red;
+}
 .banner .list1{
   grid-column: 4;
-  background-color: green;
+  background-image:url('./hazard.png');
 }
 .banner .list2{
   grid-column: 5;
-  background-color: red;
+  background-image:url('./hazard.png');
 }
 .banner .list3{
   grid-column: 6;
-  background-color: blue;
+  background-image:url('./hazard.png');
 }
 
 .video-box {
-  background: linear-gradient(to bottom,#ff729f, #06d6a0);
+  background: linear-gradient(to bottom,#ff729f, #ecd444);
   grid-column: 1;
   grid-row: 2;
 }
@@ -87,7 +93,7 @@ body {
 
 
 .comments { 
-  background: linear-gradient(to bottom,#5e239d,#ff729f, #06d6a0);
+  background: linear-gradient(to bottom,#5e239d,#ff729f, #6e2594);
   grid-column: 2;
   grid-row: 2 / 4;
   padding: 20px; 
