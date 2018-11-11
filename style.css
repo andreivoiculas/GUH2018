@@ -11,7 +11,7 @@ body {
     background-size:100%;
     height:364;
     width:480;
-    cursor: url(./lenny/lenny.cur), pointer;
+    cursor: url(cursor.cur), pointer;
 }
 .wrapper {
   display: grid;
@@ -105,8 +105,14 @@ body {
   border-width: 5px;
   height: 130px;
   margin-top: 10px; 
+  font-weight: bolder;
 }
 
+.comment img {
+  margin-left: 10px;
+  margin-top: 10px;  
+  float: left;
+}
 .comment1{
   border-style: dashed; 
   border-color: #f61067;
@@ -115,24 +121,28 @@ body {
 .comment2{
   border-style: dotted; 
   border-color: #f61067;
+  color: pink;
   background-image:url('./comment1.jpeg');
 }
 
 .comment3{
   border-style: solid; 
   border-color: #5e239d;
+  color: #ecd444;
   background-image:url('./comment2.jpeg');
 }
 
 .comment4{
   border-style: double; 
   border-color: #25ced1;
+  color: #f61067;
   background-image:url('./comment3.jpeg');
 }
 
 .comment5{
   border-style: groove; 
   border-color: white;
+  color: #5e239d;
   background-image:url('./comment4.jpeg');
 }
 
@@ -159,12 +169,23 @@ body {
 }
 
 .bottom-video .description {
-    background-color: red;
+    /*background-color: red;*/
     grid-column: 1;
     grid-row: 1;
     height: 100px;
+    font-weight: bolder;
 }
 
+.bottom-video img{
+  float: left; 
+}
+.bottom-video .creator-name
+{
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  color: #f61067;
+}
 .bottom-video .suggestion{
     background-color: blue;
     grid-column: 1;
