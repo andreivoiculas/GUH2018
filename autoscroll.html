@@ -8,7 +8,7 @@
 <script type="text/javascript">
   useless_work();
 </script>
-<body onload="">
+<body onload="popupads()">
  <!-- <audio autoplay>
   <source src="dogs.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
@@ -21,14 +21,19 @@ Your browser does not support the audio element.
   }
 
   function popupads() {
-    window.open("http://www.milliondollarhomepage.com/","null1","height=500,width=420,top=200px,left=200px");
-    window.open("ad1.html","null2","height=500,width=520,top=200px,left=800px");
-    window.open("ad2.html","null5","height=320,width=620,top=200px,left=400px");
-    window.open("ad2.html","null6","height=320,width=620,top=200px,left=800px");
-    window.open("ad2.html","null7","height=320,width=620,top=200px,left=100px");
-    window.open("ad2.html","null8","height=320,width=620,top=200px,left=500px");
-    window.open("ad2.html","null3","height=320,width=620,top=400px,left=1000px");
-    window.open("ad3.html","null4","height=500,width=420,top=100px,left=1600px");
+    window.open("http://www.milliondollarhomepage.com/","null1","height=" + (parseInt(window.innerHeight) * .3) + ",width=" + (parseInt(window.innerWidth) * 0.3) + ",top=200px,left=200px");
+
+
+    window.open("ad1.html","null2","height=200,width=300,top=200px,left=800px");
+    window.open("ad2.html","null3","height=350,width=735,top=500px,left=200px");
+    window.open("ad3.html","null4","height=400,width=570,top=500px,left=1000px");
+    window.open("ad4.html","null5","height=630,width=455,top=200px,left=700px");
+    window.open("ad5.html","null6","height=370,width=735,top=1000px,left=1000px");
+    window.open("ad6.html","null7","height=620,width=475,top=100px,left=1200px");
+    window.open("ad7.html","null8","height=420,width=575,top=1200px,left=200px");
+
+
+    
   }
 </script>
 <div class="wrapper">
@@ -108,16 +113,21 @@ Your browser does not support the audio element.
 
     </div>
     <div class="suggestion">
-      <div class="sugg-video">
-        <img src="">
-        <p></p>
+      <div class="sugg-video" style="padding-top: 10px;margin-left: 60px">
+        <img src="sax.gif" style="height: 170px">
+        <p>Bill Clinton Saxophone</p>
       </div>
-      <div class="sugg-video">
-        <img src="">
-        <p></p>
+      <div class="sugg-video" style="float: right; margin-top: -190px ;margin-right:120px">
+        <img src="sandler.gif" style="height: 170px">
+        <p>Goofy Adam Sandler</p>
       </div>
     </div>
-    <div class="search"></div>
+    <div class="search">
+      <form>
+      <input type="text" class = "search-box" placeholder="Don't let your memes be dreams">
+      <input type="submit" class = "search-submit" value="Join the Willenium">
+      </form>
+    </div>
   </div>
 
 
