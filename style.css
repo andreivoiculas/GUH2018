@@ -104,7 +104,7 @@ body {
 .comment1{
   border-style: dashed; 
   border-color: #f61067;
-  background: linear-gradient(to bottom,#ff829f, #06d6a0);
+  background: linear-gradient(to bottom,#f61067, #06d6a0);
 }
 .comment2{
   border-style: dotted; 
@@ -113,9 +113,21 @@ body {
 }
 
 .comment3{
-  border-style: dotted; 
-  border-color: #f61067;
+  border-style: solid; 
+  border-color: #5e239d;
   background-image:url('./comment2.jpeg');
+}
+
+.comment4{
+  border-style: double; 
+  border-color: #25ced1;
+  background-image:url('./comment3.jpeg');
+}
+
+.comment5{
+  border-style: groove; 
+  border-color: white;
+  background-image:url('./comment4.jpeg');
 }
 
 .comment .username{
@@ -140,22 +152,26 @@ body {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.description {
+.bottom-video .description {
     background-color: red;
     grid-column: 1;
     grid-row: 1;
+    height: 100px;
 }
 
-.suggestion{
+.bottom-video .suggestion{
     background-color: blue;
     grid-column: 1;
     grid-row: 2;
+    height: 200px;
 }
 
-.search{
+.bottom-video .search{
   background-color: green;
     grid-column: 1;
     grid-row: 3;
+    height: 100px;
+
 }
 
 .banner {
@@ -170,6 +186,7 @@ body {
   grid-row: 1;
   margin-top: 300px; 
   height: 100px;
+  background-image:url('./jonshirt.jpeg');
 }
 
 .free-music{
